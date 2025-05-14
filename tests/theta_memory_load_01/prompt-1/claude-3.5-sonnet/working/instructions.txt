@@ -1,9 +1,0 @@
-This dataset is described in readme.md.
-
-Your task is to create and execute scripts that explore this dataset and test various hypothesis and then summarize your findings in a new file report.md.
-
-In report.md you can refer to any images that you create using markdown image elements.
-
-Be sure to justify any conclusions using statistical tests.
-
-Don't use the read tool on the source data files as they are too large.

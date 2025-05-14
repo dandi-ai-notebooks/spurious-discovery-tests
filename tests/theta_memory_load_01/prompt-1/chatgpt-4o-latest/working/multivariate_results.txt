@@ -1,1 +1,0 @@
-Cross-validated R^2: -85.366 ± 169.628\n

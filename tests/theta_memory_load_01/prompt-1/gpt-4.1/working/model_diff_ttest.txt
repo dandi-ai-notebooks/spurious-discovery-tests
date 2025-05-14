@@ -1,3 +1,0 @@
-Paired t-test: t=4.883, p=0.008144
-Multivariate CV R2: mean=0.042 +/- 0.017
-Fz CV R2: mean=-0.002 +/- 0.003
