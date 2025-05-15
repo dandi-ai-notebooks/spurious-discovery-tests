@@ -1,0 +1,31 @@
+Top Positive Correlations:
+bacteria_12             0.128885
+metabolic_8             0.106467
+bacteria_2              0.088032
+biomarker_2             0.087477
+water_consumption_ml    0.085931
+rem_sleep_percentage    0.075760
+bacteria_4              0.069133
+immune_9                0.067185
+waist_circumference     0.060895
+hormone_thyroid         0.059545
+
+Top Negative Correlations:
+metabolic_13        -0.059936
+bacteria_9          -0.064784
+vitamin_C           -0.065304
+bacteria_1          -0.067768
+blood_cholesterol   -0.075582
+alcohol_units       -0.079841
+bacteria_11         -0.082247
+metabolic_3         -0.082855
+exercise_minutes    -0.108867
+screen_time_hours   -0.153688
+
+Statistical Test Results:
+               variable  correlation   p_value  significant
+0           bacteria_12     0.128885  0.003892         True
+1           metabolic_8     0.106467  0.017243         True
+2            bacteria_2     0.088032  0.049144         True
+3           biomarker_2     0.087477  0.050595        False
+4  water_consumption_ml     0.085931  0.054829        False
