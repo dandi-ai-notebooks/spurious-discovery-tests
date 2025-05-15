@@ -60,3 +60,22 @@ This project contains a collection of synthetic experiments designed to expose t
 |deepseek-chat-v3-0324|Fail|[report.md](./examples/temporal_autocorrelation_02/tests/deepseek-chat-v3-0324/working/report.md)|
 |gemini-2.5-flash-preview|Medium|[report.md](./examples/temporal_autocorrelation_02/tests/gemini-2.5-flash-preview/working/report.md)|
 |gemini-2.5-pro-preview|Fail|[report.md](./examples/temporal_autocorrelation_02/tests/gemini-2.5-pro-preview/working/report.md)|
+
+# data_artifacts_01
+
+**Description of the fake experiment**: This dataset contains continuous recordings of neural firing rates from two distinct brain regions (Region A and Region B). The recordings span 6 hours with measurements taken every second, resulting in 21,600 time points per region. **There researchers reported some problems with data acquisition. There may be periods during the recording where the data is corrupted.**
+
+**Dataset**: The dataset was generated with no underlying signal. However, there were time chunks when the firing rates were all zeros, leading to a spurious correlation if not accounted for. The goal of the experiment is to see if the LLMs will identify that the correlations are due to the data artifacts and not significant.
+
+|||
+|---|---|
+|Experiment description|[fake_readme.md](./examples/data_artifacts_01/fake_readme.md)|
+|Data generation|[generate.py](./examples/data_artifacts_01/generate.py)|
+
+|Model|Pass/Fail|Report|
+|---|---|---|
+|chatgpt-4o-latest|Fail|[report.md](./examples/data_artifacts_01/tests/chatgpt-4o-latest/working/report.md)|
+|claude-3.5-sonnet|Fail|[report.md](./examples/data_artifacts_01/tests/claude-3.5-sonnet/working/report.md)|
+|deepseek-chat-v3-0324|Fail|[report.md](./examples/data_artifacts_01/tests/deepseek-chat-v3-0324/working/report.md)|
+|gemini-2.5-flash-preview|Fail|[report.md](./examples/data_artifacts_01/tests/gemini-2.5-flash-preview/working/report.md)|
+|gemini-2.5-pro-preview|Fail|[report.md](./examples/data_artifacts_01/tests/gemini-2.5-pro-preview/working/report.md)|
