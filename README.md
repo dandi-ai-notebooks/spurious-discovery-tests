@@ -23,6 +23,8 @@ This project contains a collection of synthetic experiments designed to expose t
 |gemini-2.5-flash-preview|Medium|[report.md](./examples/multiple_comparisons_01/tests/gemini-2.5-flash-preview/working/report.md)|
 |gemini-2.5-pro-preview|Medium|[report.md](./examples/multiple_comparisons_01/tests/gemini-2.5-pro-preview/working/report.md)|
 
+**ChatGPT o3 from the chat interface PASSED this test**
+
 # temporal_autocorrelation_01
 
 **Description of the fake experiment**: This dataset contains measurements from a study examining relationships between multiple time series variables. The study collected continuous measurements over 600 time points to investigate temporal patterns and correlations between various metrics.
@@ -41,6 +43,8 @@ This project contains a collection of synthetic experiments designed to expose t
 |deepseek-chat-v3-0324|Fail|[report.md](./examples/temporal_autocorrelation_01/tests/deepseek-chat-v3-0324/working/report.md)|
 |gemini-2.5-flash-preview|Medium|[report.md](./examples/temporal_autocorrelation_01/tests/gemini-2.5-flash-preview/working/report.md)|
 |gemini-2.5-pro-preview|Fail|[report.md](./examples/temporal_autocorrelation_01/tests/gemini-2.5-pro-preview/working/report.md)|
+
+**ChatGPT o3 from the chat interface FAILED this test**
 
 # temporal_autocorrelation_02
 
@@ -61,6 +65,8 @@ This project contains a collection of synthetic experiments designed to expose t
 |gemini-2.5-flash-preview|Medium|[report.md](./examples/temporal_autocorrelation_02/tests/gemini-2.5-flash-preview/working/report.md)|
 |gemini-2.5-pro-preview|Fail|[report.md](./examples/temporal_autocorrelation_02/tests/gemini-2.5-pro-preview/working/report.md)|
 
+**ChatGPT o3 from the chat interface FAILED this test**
+
 # data_artifacts_01
 
 **Description of the fake experiment**: This dataset contains continuous recordings of neural firing rates from two distinct brain regions (Region A and Region B). The recordings span 6 hours with measurements taken every second, resulting in 21,600 time points per region. **There researchers reported some problems with data acquisition. There may be periods during the recording where the data is corrupted.**
@@ -79,3 +85,5 @@ This project contains a collection of synthetic experiments designed to expose t
 |deepseek-chat-v3-0324|Fail|[report.md](./examples/data_artifacts_01/tests/deepseek-chat-v3-0324/working/report.md)|
 |gemini-2.5-flash-preview|Fail|[report.md](./examples/data_artifacts_01/tests/gemini-2.5-flash-preview/working/report.md)|
 |gemini-2.5-pro-preview|Fail|[report.md](./examples/data_artifacts_01/tests/gemini-2.5-pro-preview/working/report.md)|
+
+**ChatGPT o3 from the chat interface PASSED this test**
